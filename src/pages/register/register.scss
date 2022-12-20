@@ -1,0 +1,79 @@
+.register {
+    height: 100vh;
+    background-color: rgb(193, 190, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .card {
+        display: flex;
+        width: 50%;
+        background-color: white;
+        border-radius: 10px;
+        min-height: 500px;
+        overflow: hidden;
+        .left {
+            flex: 1;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            justify-content: center;
+            h1 {
+                font-size: 50px;
+                color: rgb(108, 106, 106);
+            }
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                input {
+                    border: none;
+                    border-bottom: 1px solid lightgray;
+                    padding: 20px 10px;
+                }
+                button {
+                    border: none;
+                    padding: 10px;
+                    width: 50%;
+                    background-color: #938eef;
+                    color: white;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+            }
+        }
+        .right {
+            flex: 1;
+            background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5)), url("https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") center;
+            background-size: cover;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            color: whitesmoke;
+            align-items: center;
+            h1 {
+                font-size: 70px;
+                line-height: 70px;
+            }
+            p {
+                color: whitesmoke;
+            }
+            span {
+                font-size: 14px;
+                cursor: pointer;
+            }
+            a {
+                width: 50%;
+                button {
+                    border: none;
+                    padding: 10px;
+                    width: 100%;
+                    color: rebeccapurple;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

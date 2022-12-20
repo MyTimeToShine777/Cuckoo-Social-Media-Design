@@ -1,0 +1,116 @@
+.login {
+    height: 100vh;
+    background-color: rgb(193, 190, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .card {
+        display: flex;
+        width: 50%;
+        background-color: white;
+        border-radius: 10px;
+        min-height: 500px;
+        overflow: hidden;
+        .left {
+            flex: 1;
+            background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5)), url("https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") center;
+            background-size: cover;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            color: whitesmoke;
+            align-items: center;
+            h1 {
+                font-size: 70px;
+                line-height: 70px;
+                text-align: center;
+            }
+            .icon {
+                .icon1 {
+                    display: flex;
+                    color: white;
+                    background-color: #db4437;
+                    padding: 10px 30px;
+                    border-radius: 5px;
+                    margin-top: 36px;
+                    gap: 10px;
+                    font-weight: 500;
+                    cursor: pointer;
+                    width: 100%;
+                }
+                .icon2 {
+                    display: flex;
+                    color: white;
+                    background-color: #4267b2;
+                    padding: 10px 20px;
+                    border-radius: 5px;
+                    margin-top: 10px;
+                    gap: 10px;
+                    font-weight: 500;
+                    cursor: pointer;
+                    width: 100%;
+                }
+                .icon3 {
+                    display: flex;
+                    color: white;
+                    background-color: #171515;
+                    padding: 10px 30px;
+                    border-radius: 5px;
+                    margin-top: 10px;
+                    gap: 20px;
+                    font-weight: 500;
+                    cursor: pointer;
+                    width: 100%;
+                }
+            }
+            span {
+                font-size: 14px;
+                cursor: pointer;
+            }
+            a {
+                width: 50%;
+                button {
+                    align-items: center;
+                    border: none;
+                    width: 100%;
+                    padding: 10px;
+                    color: rebeccapurple;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+            }
+        }
+        .right {
+            flex: 1;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            justify-content: center;
+            h1 {
+                font-size: 50px;
+                color: rgb(108, 106, 106);
+            }
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                input {
+                    border: none;
+                    border-bottom: 1px solid lightgray;
+                    padding: 20px 10px;
+                }
+                button {
+                    border: none;
+                    padding: 10px;
+                    width: 50%;
+                    background-color: #938eef;
+                    color: white;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
