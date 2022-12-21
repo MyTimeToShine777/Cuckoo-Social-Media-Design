@@ -84,57 +84,57 @@ const Rightbar = () => {
             </div>
             <span>1 min ago</span>
           </div>
-          <div className="item">
-            <span>Online Friends</span>
-            <div className="user">
-              <div className="userInfo">
-                <img
-                  src="https://res.cloudinary.com/drplxcnzd/image/upload/v1671551133/work/profile_dddjqh.png"
-                  alt="ProfilePic"
-                />
-                <div className="online" />
-                <span>Pugazh</span>
-              </div>
+        </div>
+        <div className="item">
+          <span>Online Friends</span>
+          <div className="user">
+            <div className="userInfo">
+              <img
+                src="https://res.cloudinary.com/drplxcnzd/image/upload/v1671551133/work/profile_dddjqh.png"
+                alt="ProfilePic"
+              />
+              <div className="online" />
+              <span>Pugazh</span>
             </div>
-            <div className="user">
-              <div className="userInfo">
-                <img
-                  src="https://res.cloudinary.com/drplxcnzd/image/upload/v1671551133/work/profile_dddjqh.png"
-                  alt="ProfilePic"
-                />
-                <div className="online" />
-                <span>Pugazh</span>
-              </div>
+          </div>
+          <div className="user">
+            <div className="userInfo">
+              <img
+                src="https://res.cloudinary.com/drplxcnzd/image/upload/v1671551133/work/profile_dddjqh.png"
+                alt="ProfilePic"
+              />
+              <div className="online" />
+              <span>Pugazh</span>
             </div>
-            <div className="user">
-              <div className="userInfo">
-                <img
-                  src="https://res.cloudinary.com/drplxcnzd/image/upload/v1671551133/work/profile_dddjqh.png"
-                  alt="ProfilePic"
-                />
-                <div className="online" />
-                <span>Pugazh</span>
-              </div>
+          </div>
+          <div className="user">
+            <div className="userInfo">
+              <img
+                src="https://res.cloudinary.com/drplxcnzd/image/upload/v1671551133/work/profile_dddjqh.png"
+                alt="ProfilePic"
+              />
+              <div className="online" />
+              <span>Pugazh</span>
             </div>
-            <div className="user">
-              <div className="userInfo">
-                <img
-                  src="https://res.cloudinary.com/drplxcnzd/image/upload/v1671551133/work/profile_dddjqh.png"
-                  alt="ProfilePic"
-                />
-                <div className="online" />
-                <span>Pugazh</span>
-              </div>
+          </div>
+          <div className="user">
+            <div className="userInfo">
+              <img
+                src="https://res.cloudinary.com/drplxcnzd/image/upload/v1671551133/work/profile_dddjqh.png"
+                alt="ProfilePic"
+              />
+              <div className="online" />
+              <span>Pugazh</span>
             </div>
-            <div className="user">
-              <div className="userInfo">
-                <img
-                  src="https://res.cloudinary.com/drplxcnzd/image/upload/v1671551133/work/profile_dddjqh.png"
-                  alt="ProfilePic"
-                />
-                <div className="online" />
-                <span>Pugazh</span>
-              </div>
+          </div>
+          <div className="user">
+            <div className="userInfo">
+              <img
+                src="https://res.cloudinary.com/drplxcnzd/image/upload/v1671551133/work/profile_dddjqh.png"
+                alt="ProfilePic"
+              />
+              <div className="online" />
+              <span>Pugazh</span>
             </div>
           </div>
         </div>

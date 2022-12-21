@@ -12,8 +12,12 @@ import {
   SearchOutlined,
 } from "@mui/icons-material";
 import { Link } from "react-router-dom";
+import { useSelector, useDispatch } from "react-redux";
+import { toggleDarkMode } from "../../features/themes/darkModeSlice";
 
 const Navbar = () => {
+  const { mode } = useSelector((state) => state.darkMode);
+  const dispatch = useDispatch();
   return (
     <div className="navbar">
       <div className="left">
@@ -26,8 +30,11 @@ const Navbar = () => {
           <span>Cuckoo</span>
         </Link>
         <HomeOutlined />
-        <DarkModeOutlined />
-        <LightModeOutlined />
+        {mode ? (
+          <DarkModeOutlined onClick={() => dispatch(toggleDarkMode())} />
+        ) : (
+          <LightModeOutlined onClick={() => dispatch(toggleDarkMode())} />
+        )}
         <GridViewOutlined />
         <div className="search">
           <SearchOutlined />
