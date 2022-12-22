@@ -21,7 +21,7 @@ const LeftBar = () => {
         <div className="menu">
           <div className="user">
             <img
-              src="https://res.cloudinary.com/drplxcnzd/image/upload/v1671551133/work/profile_dddjqh.png"
+              src="https://res.cloudinary.com/drplxcnzd/image/upload/v1671726937/work/WhatsApp_Image_2022-12-22_at_22.04.35_au0cns.jpg"
               alt="ProfilePic"
             />
             <span>Pugazh</span>

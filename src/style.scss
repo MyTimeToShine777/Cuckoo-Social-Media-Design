@@ -1,4 +1,4 @@
-$theme: ( light: ( textColor: #454e56, bg: white, logo: rebeccapurple, bgSoft: #f6f3f3, textColorSoft: #555, border: lightgray, ), dark: ( textColor: whitesmoke, bg: #191d2b, logo: white, bgSoft: #0e121e, textColorSoft: lightgray, border: #444, ), );
+$theme: ( light: ( textColor: #2d3134, bg: white, logo: rebeccapurple, bgSoft: #f6f3f3, textColorSoft: #555, border: lightgray, ), dark: ( textColor: whitesmoke, bg: #191d2b, logo: white, bgSoft: #0e121e, textColorSoft: lightgray, border: #444, ), );
 @mixin themify($themes) {
     @each $theme,
     $map in $themes {
@@ -17,4 +17,16 @@ $theme: ( light: ( textColor: #454e56, bg: white, logo: rebeccapurple, bgSoft: #
 
 @function themed($key) {
     @return map-get($theme-map, $key);
+}
+
+@mixin mobile {
+    @media (max-width: 480px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (max-width: 960px) {
+        @content;
+    }
 }

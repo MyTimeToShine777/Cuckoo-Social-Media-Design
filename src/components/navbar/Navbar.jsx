@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="left">
-        <Link>
+        <Link to="/">
           <img
             src="https://res.cloudinary.com/drplxcnzd/image/upload/v1671529885/work/images-removebg-preview_ysd62o.png"
             alt="Logo"
@@ -29,7 +29,10 @@ const Navbar = () => {
           />
           <span>Cuckoo</span>
         </Link>
-        <HomeOutlined />
+        <Link to="/">
+          <HomeOutlined />
+        </Link>
+
         {mode ? (
           <DarkModeOutlined onClick={() => dispatch(toggleDarkMode())} />
         ) : (
@@ -47,7 +50,7 @@ const Navbar = () => {
         <PersonOutlined />
         <div className="user">
           <img
-            src="https://res.cloudinary.com/drplxcnzd/image/upload/v1671551133/work/profile_dddjqh.png"
+            src="https://res.cloudinary.com/drplxcnzd/image/upload/v1671726937/work/WhatsApp_Image_2022-12-22_at_22.04.35_au0cns.jpg"
             alt="ProfilePic"
           />
           <span>Pugazh</span>

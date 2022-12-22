@@ -8,6 +8,10 @@
         overflow: scroll;
         background-color: themed("bg");
         color: themed("textColor");
+        transition: 0.5s all ease-in-out;
+        @include mobile {
+            display: none;
+        }
         &::-webkit-scrollbar {
             display: none;
         }
